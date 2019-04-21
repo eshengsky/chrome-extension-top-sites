@@ -3,18 +3,19 @@
     "description": "Show the most visited websites",
     "version": "1.0.0",
     "icons": {
-        "19": "icon.png",
-        "38": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
+        "16": "icon-16.png",
+        "32": "icon-32.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
     },
     "browser_action": {
-        "default_icon": "icon.png",
+        "default_icon": "icon-48.png",
         "default_title": "Top Sites",
         "default_popup": "popup.html"
     },
     "permissions": [
-        "topSites"
+        "topSites",
+        "chrome://favicon/"
     ],
     "manifest_version": 2
 }
