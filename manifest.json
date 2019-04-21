@@ -1,6 +1,6 @@
 {
     "name": "Top Sites",
-    "description": "Show the most visited websites",
+    "description": "Show the most visited websites quickly.",
     "version": "1.0.0",
     "icons": {
         "16": "icon-16.png",
